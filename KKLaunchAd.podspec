@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKLaunchAd'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of KKLaunchAd.'
+  s.version          = '1.0.0'
+  s.summary          = '开屏广告、启动广告解决方案'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+开屏广告、启动广告解决方案-支持静态/动态图片广告,mp4视频广告,全屏/半屏广告、兼容iPhone/iPad.
                        DESC
 
-  s.homepage         = 'https://github.com/andy/KKLaunchAd'
+  s.homepage         = 'https://github.com/cuizhiyuan/KKLaunchAd'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'andy' => 'andy.cui@lesso.com' }
-  s.source           = { :git => 'https://github.com/andy/KKLaunchAd.git', :tag => s.version.to_s }
+  s.author           = { 'cuizhiyuan' => '554561128@qq.com' }
+  s.source           = { :git => 'https://github.com/cuizhiyuan/KKLaunchAd.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'KKLaunchAd/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'KKLaunchAd' => ['KKLaunchAd/Assets/*.png']
-  # }
+s.resource_bundles = {
+    'KKLaunchAd' => ['KKLaunchAd/KKLaunchAd.framework/*.bundle']
+}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.vendored_frameworks = 'KKLaunchAd/*.{framework}'
+    s.dependency 'AFNetworking'
+    s.dependency 'SDWebImage'
+    s.dependency 'SVProgressHUD'
 end

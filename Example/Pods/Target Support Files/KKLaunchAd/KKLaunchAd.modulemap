@@ -1,0 +1,6 @@
+framework module KKLaunchAd {
+  umbrella header "KKLaunchAd-umbrella.h"
+
+  export *
+  module * { export * }
+}
