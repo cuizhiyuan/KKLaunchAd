@@ -1,0 +1,6 @@
+use_frameworks!
+target 'KKLaunchAd_Tests' do
+  pod 'KKLaunchAd', :path => '../'
+  
+  
+end
