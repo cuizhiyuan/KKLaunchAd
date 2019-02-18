@@ -15,6 +15,6 @@ FOUNDATION_EXPORT double KKLaunchAdVersionNumber;
 FOUNDATION_EXPORT const unsigned char KKLaunchAdVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <KKLaunchAd/PublicHeader.h>
-#import "KKLaunchAdManager.h"
-#import "KKLaunchAd.h"
+#import <KKLaunchAd/KKLaunchAdManager.h>
+#import <KKLaunchAd/KKLaunchAd.h>
 

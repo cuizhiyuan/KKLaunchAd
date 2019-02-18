@@ -6,7 +6,7 @@
 //  Copyright © 2018年 KK. All rights reserved.
 
 #import <UIKit/UIKit.h>
-#import "AFNetworking/AFNetworking.h"
+#import <AFNetworking.h>
 
 @interface KKLaunchAdManager : NSObject
 +(KKLaunchAdManager *)shareManager;
