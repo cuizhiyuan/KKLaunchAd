@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - KKLaunchAd (1.0.6):
+  - KKLaunchAd (1.0.7):
     - AFNetworking
     - SDWebImage
     - SVProgressHUD
@@ -38,7 +38,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  KKLaunchAd: 0988669c0fdf947b4c50d9d863a25cbc417e16e2
+  KKLaunchAd: 00b3c22d37dea3e095dc22d640f6b4488515b46e
   SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
