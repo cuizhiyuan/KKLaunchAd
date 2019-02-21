@@ -1,6 +1,6 @@
 {
   "name": "KKLaunchAd",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "summary": "开屏广告、启动广告解决方案",
   "description": "开屏广告、启动广告解决方案-支持静态/动态图片广告,mp4视频广告,全屏/半屏广告、兼容iPhone/iPad.",
   "homepage": "https://github.com/cuizhiyuan/KKLaunchAd",
@@ -13,15 +13,10 @@
   },
   "source": {
     "git": "https://github.com/cuizhiyuan/KKLaunchAd.git",
-    "tag": "1.0.5"
+    "tag": "1.0.6"
   },
   "platforms": {
     "ios": "8.0"
-  },
-  "resource_bundles": {
-    "KKLaunchAd": [
-      "KKLaunchAd/KKLaunchAd.framework/*.bundle"
-    ]
   },
   "vendored_frameworks": "KKLaunchAd/*.{framework}",
   "dependencies": {

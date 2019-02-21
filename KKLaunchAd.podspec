@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKLaunchAd'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = '开屏广告、启动广告解决方案'
 
 # This description is used to generate tags and improve search results.
@@ -30,9 +30,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-s.resource_bundles = {
-    'KKLaunchAd' => ['KKLaunchAd/KKLaunchAd.framework/*.bundle']
-}
+  #s.resource_bundles = {
+  #     'KKLaunchAd' => ['KKLaunchAd/KKLaunchAd.framework/*.bundle']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
     s.vendored_frameworks = 'KKLaunchAd/*.{framework}'
