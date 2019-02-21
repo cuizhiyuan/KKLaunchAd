@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKLaunchAd'
-  s.version          = '1.0.9'
+  s.version          = '1.1.8'
   s.summary          = '开屏广告、启动广告解决方案'
 
 # This description is used to generate tags and improve search results.
